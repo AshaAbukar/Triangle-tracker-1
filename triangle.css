@@ -20,8 +20,9 @@ body{
 }
 ol{
   font-style: italic;
-  float: inherit;
-  
+  float: center;
+  font-weight: normal;
+
 }
 button{
    background-color: #4CAF50; /* Green */
