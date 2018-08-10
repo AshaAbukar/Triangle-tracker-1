@@ -1,30 +1,29 @@
-function getTriangle(){
-var a = parseFloat(prompt("side a"));
-var b = parseFloat(prompt("side b"));
-var c = parseFloat(prompt("side c"));
-/* var determine = function(a, b, c){
-if (a === b && b === c && a === c){
-alert("Equilateral Triange");
-  }
+function getResult(){
+var hypotenuse= parseFloat(prompt("side hypotenuse"));
+var opposite = parseFloat(prompt("side opposite"));
+var adjacent = parseFloat(prompt("side adjacent"));
+/* var determine = function(hypotenuse,opposite, adjacent){
+if (hypotenuse === opposite && opposite === adjacent && hypotenuse === adjacent){
+alert("Equilateral");
+}
 
-else if ((a === b && b === a) (a != c && b !== C));
+else if ((hypotenuse === opposite && opposite === adjacent) (hypotenuse != adjacent && opposite !== adjacent));
 alert("Isosceles");
 
 }
 determine(); */
 
 
-if(a===b && a===c && b===c){
+if(hypotenuse === opposite && hypotenuse === hypotenuse && opposite === adjacent){
 alert("Equilateral");
 }
-else if(a===b || a===c || b===c){
+else if(hypotenuse === opposite || hypotenuse === adjacent || opposite === adjacent){
 alert("Isosceles");
 }
-else if((a+b)<= c || (a+c)<=b || (b+c)<=a) {
-alert("Not a Triangle");
+else if((hypotenuse + opposite) <= adjacent || (hypotenuse + adjacent) <= opposite || (opposite + adjacent) <= hypotenuse) {
+alert("Not a definite triangle");
 }
 else{
-alert("Scalar");
+alert("Scalene");
 }
 }
-getTriangle();
