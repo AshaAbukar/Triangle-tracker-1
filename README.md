@@ -6,7 +6,7 @@ This is an application that determines whether a set of three numbers can either
 
 - A running network connection to the internet
 - A web browser
-- This link
+- This link https://github.com/Vynnel/Triangle-tracker
 
 ## Deployment
 
@@ -15,28 +15,17 @@ Enter the link into the url interface and click the prompt.
 ## Built With
 
 -Atom
-ropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
-## Contributing
 
-Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
-
-## Versioning
-
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags).
 
 ## Authors
 
-* **Billie Thompson** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
-
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
+Vynnel Omondi.
 
 ## License
+Vynnel/Triangle-tracker is licensed under the
 
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+Mozilla Public License 2.0
+Permissions of this weak copyleft license are conditioned on making available source code of licensed files and modifications of those files under the same license (or in certain cases, one of the GNU licenses). Copyright and license notices must be preserved. Contributors provide an express grant of patent rights. However, a larger work using the licensed work may be distributed under different terms and without source code for files added in the larger work
 
-## Acknowledgments
 
-* Hat tip to anyone whose code was used
-* Inspiration
-* etc
 # Triangle-tracker
